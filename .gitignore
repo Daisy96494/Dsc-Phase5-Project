@@ -1,1 +1,14 @@
+## Data modules
 *.csv
+*.sqlite3
+
+## Django-build modules
+*.po
+*.mo
+
+## dev environment modules
+*.pyc
+*.virtual-env/
+
+
+
