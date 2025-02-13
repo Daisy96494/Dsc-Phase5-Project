@@ -6,9 +6,8 @@
 *.po
 *.mo
 
+
 ## dev environment modules
-*.pyc
-*.virtual-env/
-
-
+platform/virtualenv/
+platform/data/
 
