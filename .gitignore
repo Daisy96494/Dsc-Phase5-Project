@@ -9,5 +9,4 @@
 ## dev environment modules
 *.pyc
 platform/virtualenv/
-platform/climatrack/manage.py
 
