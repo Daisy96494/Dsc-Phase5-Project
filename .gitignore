@@ -6,8 +6,8 @@
 *.po
 *.mo
 
-
 ## dev environment modules
+*.pyc
 platform/virtualenv/
-platform/data/
+platform/climatrack/manage.py
 
