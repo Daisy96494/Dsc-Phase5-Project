@@ -1,6 +1,7 @@
 ## Data modules
 *.csv
 *.sqlite3
+*.db
 
 ## Django-build modules
 *.po
@@ -9,4 +10,6 @@
 ## dev environment modules
 *.pyc
 platform/virtualenv/
-
+pipeline/venv/
+pipeline/downloads/
+data/

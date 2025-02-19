@@ -16,7 +16,7 @@ conn = sqlite3.connect("../climatrack/db.sqlite3")
 cursor = conn.cursor()
 
 # Get the location's coordinates
-location_name = "Amsterdam"
+location_name = "Mumbai"
 cursor.execute("SELECT latitude, longitude FROM location_data WHERE city = ?", (location_name,))
 location = cursor.fetchone()
 
