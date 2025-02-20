@@ -13,3 +13,4 @@ platform/virtualenv/
 pipeline/venv/
 pipeline/downloads/
 data/
+Collector/
