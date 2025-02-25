@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Predictor</title>
+    {% load static %}
+    <script src="https://unpkg.com/@heroicons/vue@1.0.6"></script>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'job/css/styles.css' %}" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Predictor</h1>
+      <p class="subtitle">Enter a location to predict the weather</p>
+
+      <form method="POST" action="">
+        {% csrf_token %}
+
+        <div class="form-group">
+          <label for="location">Location:</label>
+          <div class="input-container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10s1 3 5 5c3 1 4 2 5 5 1-3 2-4 5-5 4-2 5-5 5-5a7 7 0 10-14 0z" />
+            </svg>
+            <input type="text" id="location" name="location" placeholder="Enter location..." required />
+          </div>
+        </div>
+
+        <button type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-btn" fill="none" viewBox="0 0 24 24" stroke="white">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 21l5-5m0 0l-5-5m5 5H3" />
+          </svg>Predict Weather
+        </button>
+      </form>
+
+      {% if error %}
+        <p class="error">{{ error }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>

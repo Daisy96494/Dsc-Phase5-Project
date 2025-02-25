@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Results</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Data Results</h1>
+
+      {% if location %}
+        <h3>Weather Analysis for: <strong>{{ location }}</strong></h3>
+      {% endif %}
+
+      {% if charts %}
+        <h2>Weather Graphs</h2>
+        <div>
+          <h3>Temperature (°C)</h3>
+          <img src="{{ charts.temperature_chart }}" alt="Temperature Chart" />
+        </div>
+        <div>
+          <h3>Wind Speed (km/h)</h3>
+          <img src="{{ charts.wind_chart }}" alt="Wind Chart" />
+        </div>
+        <div>
+          <h3>Pressure (hPa)</h3>
+          <img src="{{ charts.pressure_chart }}" alt="Pressure Chart" />
+        </div>
+      {% else %}
+        <p style="color: red;">No graphs available. Please try submitting the form again.</p>
+      {% endif %}
+
+      <br />
+    </div>
+  </body>
+</html>
