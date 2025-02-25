@@ -28,39 +28,47 @@ Provide interactive reports and visualizations for users to understand long-term
 Enable user-friendly access to customized weather analytics based on location inputs.
 
 # STAKEHOLDERS
-Individuals: Personalized weather insights and extreme weather alerts.
+*Individuals*: Personalized weather insights and extreme weather alerts.
 
-Businesses & Agriculture: Seasonal weather trend analysis for operational planning.
+*Businesses & Agriculture*: Seasonal weather trend analysis for operational planning.
 
-Researchers & Environmentalists: Access to detailed climate change trends and predictive models.
+*Researchers & Environmentalists*: Access to detailed climate change trends and predictive models.
 
-Government & Disaster Management Agencies: Proactive strategies for mitigating climate risks.
+*Government & Disaster Management Agencies*: Proactive strategies for mitigating climate risks.
 
 # USE CASES AND APPLICATIONS
-Personalized Weather Insights and Alerts: Provide individuals with localized weather forecasts and real-time extreme weather alerts, helping them plan daily activities and safeguard against disruptions.
+*Personalized Weather Insights and Alerts*: Provide individuals with localized weather forecasts and real-time extreme weather alerts, helping them plan daily activities and safeguard against disruptions.
 
-Operational Planning for Businesses & Agriculture: Deliver seasonal weather trend analysis that aids in strategic decision-making, optimizing resources, and adjusting operations based on anticipated weather patterns.
+*Operational Planning for Businesses & Agriculture*: Deliver seasonal weather trend analysis that aids in strategic decision-making, optimizing resources, and adjusting operations based on anticipated weather patterns.
 
-Climate Change Research and Predictive Modeling: Enable researchers and environmentalists to access historical climate data and predictive models, facilitating deep analysis of climate change trends and supporting informed policy-making.
+*Climate Change Research and Predictive Modeling*: Enable researchers and environmentalists to access historical climate data and predictive models, facilitating deep analysis of climate change trends and supporting informed policy-making.
 
-Climate Risk Mitigation for Government & Disaster Management: Offer government agencies and disaster management teams the tools to develop proactive climate risk strategies, improve preparedness, and manage potential climate-related disasters more effectively.
+*Climate Risk Mitigation for Government & Disaster Management*: Offer government agencies and disaster management teams the tools to develop proactive climate risk strategies, improve preparedness, and manage potential climate-related disasters more effectively.
 
 # CLIMATRACK'S COMPETITIVE ADVANTAGES
 What sets climatarck apart from other solutions in the market is:
 
-Hyper-Localized Analysis: Unlike conventional weather apps, ClimaTrack provides location-specific trends rather than broad regional estimates.
-AI-Powered Anomaly Detection: Machine learning enhances extreme weather event predictions beyond standard meteorological models.
-Seamless Integration: The system can integrate with other applications via APIs for broader use cases in agriculture, insurance, and emergency response.
-Real-Time and Historical Data Access:Users can compare historical patterns with real-time data to identify long-term trends.
+*Hyper-Localized Analysi*s: Unlike conventional weather apps, ClimaTrack provides location-specific trends rather than broad regional estimates.
+
+*AI-Powered Anomaly Detection*: Machine learning enhances extreme weather event predictions beyond standard meteorological models.
+
+*Seamless Integration*: The system can integrate with other applications via APIs for broader use cases in agriculture, insurance, and emergency response.
+
+*Real-Time and Historical Data Access*:Users can compare historical patterns with real-time data to identify long-term trends.
+
 # DATA UNDERSTANDING
 In this project we will utilize various weather data sources to build a weather forecasting and anomaly detection system. Below is an overview of each data component:
 
-NOAA Datasets: - Provides historical climate data, including temperature, precipitation, and other environmental factors, forming the foundation for model training and trend analysis.
+*NOAA Datasets*: - Provides historical climate data, including temperature, precipitation, and other environmental factors, forming the foundation for model training and trend analysis.
 
-Third-Party Weather APIs (OpenWeather, AccuWeather, WeatherStack): - Delivers real-time and forecasted weather data, enhancing the accuracy of predictions and supporting dynamic forecasting capabilities.
+*Third-Party Weather APIs (OpenWeather, AccuWeather, WeatherStack)*: - Delivers real-time and forecasted weather data, enhancing the accuracy of predictions and supporting dynamic forecasting capabilities.
 
-ETL Process: - Extracts raw data from the aforementioned sources, transforms it by cleaning and normalizing the data, and loads it into a cloud-based database for efficient storage and access.
+*ETL Process*: - Extracts raw data from the aforementioned sources, transforms it by cleaning and normalizing the data, and loads it into a cloud-based database for efficient storage and access.
 
-Machine Learning Models: - Trained on historical weather data to predict future conditions and detect anomalies, leveraging patterns in the climate data to improve forecast reliability.
+*Machine Learning Models*: - Trained on historical weather data to predict future conditions and detect anomalies, leveraging patterns in the climate data to improve forecast reliability.
+
+*Visualization & Reporting*: - Provides user-friendly dashboards, graphs, and customized climate trend reports for easy interpretation of weather patterns and anomalies.
+
+
 
 Visualization & Reporting: - Provides user-friendly dashboards, graphs, and customized climate trend reports for easy interpretation of weather patterns and anomalies.
