@@ -74,4 +74,29 @@ ii) *Third-Party Weather APIs (OpenWeather, AccuWeather, WeatherStack)*: - Provi
 
 iii) The *ETL Process* involves extracting raw data from the previously listed sources, cleaning and normalizing it, and then loading it into a cloud-based database for effective access and storage.
 
+# 1. Modules
+1) Client
+2) Frontend
+3) Backend
+4) Data Pipeline
+5) Model
+
+   
+## Client
+This is the user-facing aspect of the system. i.e simulating a user.
+
+## Front-end
+This includes html, css and js implementations
+
+## Back-end
+Implemented in python. Managing user input and acts as the service layer for that data and processes.
+
+## Data Pipeline
+This include how data is sourced, ingested, processed, and stored. Makes use of libraries such as: And technologies:
+
+## Models
+This section includes all Supervised and Unsupervised models implements using the aforementioned data.
+
+
+
 
