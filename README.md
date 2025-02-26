@@ -97,6 +97,24 @@ This include how data is sourced, ingested, processed, and stored. Makes use of 
 ## Models
 This section includes all Supervised and Unsupervised models implements using the aforementioned data.
 
+### Preparing the data...
+- It's the notepad for cleaning. Nothing fresh.
+- Due to missing values and formatting mistakes, we removed them.
+- To make sure the data we receive resembles the data we desire, we mapped validation functions to each of the columns.
+
+###  Modelling:
+- We modelled using a time series approach for prediction tasks (supervised) and a forest classifier for anomaly detection.(Unsupervised)
+- The solution is built around a web app.
+- That queries users for the geolocation information and presents them with information regarding the climatological conditions of their locale... The prevailing conditions, predictions, and anomaly detection.
+- Finally, the user can be prompted to sign up and receive alerts for weather events in that locale.
+
+~  Deployment is managed using docker.
+~ Modules of the application are broken into microservices and handled by a reverse-proxy in the backend.
+~ Services get called by processes in the front-end and return data to the frontend service.
+
+
+
+
 
 
 
