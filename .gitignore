@@ -14,3 +14,8 @@ pipeline/venv/
 pipeline/downloads/
 data/
 Collector/
+client/
+models/
+pipeline/
+platform/
+venv/

@@ -1,5 +1,25 @@
-{%extends '_base.html'%}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climatrack</title>
+</head>
+<body>
 
-{%block content%}
-<p>This is the entrypoint</p>
-{%endblock%}
+    <form id="searchForm">
+        <input type="text" id="search" onkeyup="autocompleteSearch()" placeholder="Search location...">
+        <input type="hidden" id="selectedLocation"> <!-- Store selected value -->
+        <div id="results"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div> <!-- Where script output will be displayed -->
+
+    <!-- Load external JS file -->
+    <script src="{% static 'js/autocomplete.js' %}"></script>
+
+</body>
+</html>
